@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Gris claro */
+    color: #4a4a4a; /* Gris oscuro */
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #a29bfe; /* Lila */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Cambia el color al pasar el mouse */
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #dcd6f7; /* Lila más claro */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #6c5ce7; /* Lila oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    background-color: #fafafa; /* Fondo gris muy claro */
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 900px;
+}
+
+/* Estilo para los artículos */
+article {
+    background-color: #eaeaea; /* Gris claro */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #a29bfe; /* Lila */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    width: 300px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #6c5ce7; /* Lila oscuro */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a29bfe; /* Lila más claro */
+}

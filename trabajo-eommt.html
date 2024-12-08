@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Trabajo en EOMMT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para centrar la tabla */
+        table {
+            margin: 20px auto; /* Centra la tabla horizontalmente */
+            border-collapse: collapse; /* Quita los espacios entre celdas */
+            width: 80%; /* Ajusta el ancho de la tabla */
+        }
+
+        th, td {
+            padding: 10px; /* Espaciado dentro de las celdas */
+            text-align: center; /* Centra el texto en las celdas */
+            border: 1px solid #333; /* Borde de las celdas más visible */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Fondo gris claro en las cabeceras */
+        }
+
+        /* Centrar imágenes y videos */
+        .video-container, .images-container {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 48%;
+            margin: 0 10px;
+        }
+
+        video {
+            max-width: 100%; /* Asegura que el video no se desborde */
+            margin: 20px 0;
+        }
+
+        /* Estilo para los textos */
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre mí</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Mi Trabajo en el Área de Planificación Horaria</h1>
+    </header>
+
+    <section>
+        <!-- Video relacionado con el trabajo -->
+        <div class="video-container">
+            <h3>Video sobre mi trabajo en EOMMT</h3>
+            <video width="100%" controls>
+                <source src="trabajo-eommt-video.mp4" type="video/mp4">
+                <source src="trabajo-eommt-video.ogg" type="video/ogg">
+                Tu navegador no soporta el formato de video.
+            </video>
+        </div>
+
+        <!-- Texto explicativo sobre el trabajo -->
+        <div>
+            <h2>¿Qué hago en el área de Planificación Horaria?</h2> 
+            <p>
+                Pertenezco al área de planificación horaria del tren, un sector clave que asegura que los trenes operen de manera eficiente, con horarios bien establecidos para satisfacer las necesidades de los usuarios. Mi labor consiste en planificar, coordinar y optimizar los horarios de los trenes, asegurando que estén disponibles en las horas pico y que cubran adecuadamente las rutas necesarias para el transporte de pasajeros. 
+                <br><br>
+                Este trabajo no solo es fundamental para el buen funcionamiento del Metro de Quito, sino que también me permite aplicar mis conocimientos en Tecnologías de la Información para hacer más eficiente el sistema. A través de la planificación de horarios, garantizo que el servicio sea puntual y accesible, mejorando la calidad de vida de los usuarios del sistema de transporte. 
+            </p>
+        </div>
+
+        <!-- Agregar dos fotos -->
+        <div class="images-container">
+            <h2>Fotos de mi trabajo</h2>
+            <div style="display: flex; justify-content: center; gap: 20px;">
+                <img src="images/tren1.jpg" alt="Planificación de trenes">
+                <img src="images/tren2.jpg" alt="Oficina de planificación horaria">
+            </div>
+        </div>
+
+        <!-- Tabla de horarios de tren -->
+        <div>
+            <h2>Horarios del Tren</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a Viernes</td>
+                        <td>05:30 - 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>07:00 - 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos y Festivos</td>
+                        <td>07:00 - 22:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
