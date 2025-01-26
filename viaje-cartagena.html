@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viaje a Cartagena</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #a29bfe;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #6c5ce7;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #a29bfe;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 15px; /* Espacio entre las imágenes */
+        }
+
+        .images-container img {
+            width: 32%; /* Ajusta el tamaño de las imágenes */
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .images-container img:hover {
+            transform: scale(1.05); /* Efecto de zoom cuando se pasa el cursor */
+        }
+
+        .video-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #a29bfe;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #6c5ce7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre mí</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Viaje a Cartagena - Noviembre 2024</h1>
+    </header>
+
+    <section>
+        <h2>Mi experiencia en Cartagena</h2>
+        <p>En noviembre de 2024, tuve la oportunidad de viajar a Cartagena, Colombia, con mis compañeras de trabajo. Fue un viaje inolvidable en el que exploramos la ciudad, disfrutamos de su gente cálida, y nos relajamos en un hermoso clima variado.</p>        
+        <p>Durante el viaje, disfrutamos de un paseo en yate para ver la puesta de sol, lo cual fue una experiencia mágica. La ciudad, especialmente por la noche, tiene un aire romántico con su arquitectura colonial y calles llenas de vida. También caminamos por el centro histórico, maravillándonos con la historia y la cultura del lugar.</p>
+        
+        
+        <!-- Imágenes del viaje -->
+        <div class="images-container">
+            <img src="images/cartagena-1.jpg" alt="Puesta de sol en Cartagena">
+            <img src="images/cartagena-2.jpg" alt="Centro Histórico de Cartagena">
+            <img src="images/cartagena-3.jpg" alt="Yate en Cartagena">
+        </div>
+
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mi Blog Personal. Todos los derechos reservados.</p>
+        <a href="javascript:history.back()" class="regresar-link">Regresar</a>
+    </footer>
+    
+
+</body>
+</html>

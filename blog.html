@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Metro de Quito</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #6c5ce7;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6c5ce7;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #6c5ce7;
+            color: white;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 20px;
+        }
+
+        .content img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .video-container video {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre mí</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>El Metro de Quito</h1>
+        <p>Un sistema que conecta la ciudad en menos de 40 minutos.</p>
+    </header>
+
+    <!-- Sección principal -->
+    <section>
+        <article>
+            <h3>El Metro de Quito: Conectando la ciudad</h3>
+            <div class="content">
+                <p>
+                    El metro de Quito ha transformado la movilidad de la ciudad. Con 18 trenes, el tiempo de circulación 
+                    entre Quitumbe y Labrador es de solo 36 minutos con 30 segundos, facilitando el desplazamiento de miles 
+                    de personas cada día. Además, cuenta con 15 estaciones, cada una con un diseño único que representa un 
+                    detalle distintivo de nuestra ciudad.
+                </p>
+                <img src="images/tren1.jpg" alt="Trenes modernos del Metro de Quito">
+            </div>
+            <p>
+                Una de las estaciones más concurridas es la estación San Francisco, que ha sido clave en el impulso del turismo. 
+                Esta estación conecta no solo a los residentes locales, sino también a visitantes que desean conocer el encanto 
+                histórico y cultural de Quito.
+            </p>
+
+            <!-- Video del metro -->
+            <div class="video-container">
+                <h2>Descubre el Metro de Quito</h2>
+                <video width="100%" height="450" controls>
+                    <source src="blog/trabajo-eommt-video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mi Blog Personal. Todos los derechos reservados.</p>
+        <a href="javascript:history.back()" class="regresar-link">Regresar</a>
+    </footer>
+    
+</body>
+</html>
